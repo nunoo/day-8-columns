@@ -1,0 +1,32 @@
+/* Create equal columns that floats next to each other */
+.column {
+  box-sizing: border-box;
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.box {
+  height: 40px;
+  background-color: #000;
+}
+
+.one {
+  background-color: #aaa;
+}
+
+.two {
+  background-color: #bbb;
+}
+
+.three {
+  background-color: #ccc;
+}
